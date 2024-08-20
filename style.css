@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#f3f3f3 ;
+}
+
+a{
+    text-decoration: none;
+    color: #F1F1F1;
+}
+
+ul{
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    max-width: screen;
+    margin: auto;
+    padding: 10px 120px;
+    background: linear-gradient(to right, #6AADFF, #276DC4);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes img {
+    transition: transform 0.3s ease;
+}
+
+.redes img:hover {
+    transform: scale(1.1);
+}
+
+.linkedin{
+    padding-right: 30px;
+    height: 80px;
+}
+
+.behance{
+    height: 80px;
+    padding: 0px 30px;
+}
+
+.github{
+    height: 80px;
+    padding: 0px 30px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.menu a {
+    color: #ffffff;
+    transition: color 0.3s ease; 
+}
+
+.menu a:hover {
+    color: #2743a0; 
+}
+
+.mainprincipal{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.frase{
+    height: 250px;
+}
+
+.notebook{
+    height: 450px;
+}
+
+#mainsecundario{
+    margin: 180px auto;
+    background: #dddddd;
+    box-shadow:0px 6px 20px rgba(0, 0, 0, 0.25);
+    box-shadow:6px 0px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.maintitulo{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.maininform{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.mainterciario{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.foto{
+    height: 460px;
+}
+
+.inform{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.imgperfil{
+    height: 40px;
+    margin-top: 0px;
+}
+
+.imgacademico{
+    height: 40px;
+    margin-bottom: 5px;
+    margin-top: 13px;
+}
+
+.imgmercado{
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
