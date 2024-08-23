@@ -86,7 +86,7 @@ nav{
 .mainprincipal{
     display: flex;
     flex-direction: row;
-    gap: 300px;
+    gap: 150px;
     align-items: center;
     justify-content: center;
     padding-top: 150px;
@@ -101,11 +101,13 @@ nav{
 }
 
 #mainsecundario{
+    width: 1700px;
     margin: 180px auto;
     background: #dddddd;
+    border-radius: 10px;
     box-shadow:0px 6px 20px rgba(0, 0, 0, 0.25);
     box-shadow:6px 0px 20px rgba(0, 0, 0, 0.25);
-
+    transform: rotate(-1.5deg);
 }
 
 .maintitulo{
@@ -117,6 +119,7 @@ nav{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: x-large;
+    transform: rotate(2deg);
 }
 
 .maininform{
@@ -126,7 +129,8 @@ nav{
     align-items: center;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+    transform: rotate(2deg);
 }
 
 .mainterciario{
@@ -167,6 +171,38 @@ nav{
     margin-bottom: 20px;
 }
 
+.curriculo{
+    transform: rotate(2deg);
+    background-color: #276DC4;
+    width: 180px;
+    height: 40px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow:6px 0px 20px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+
+}
+
+.downloadcv{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 700; 
+}
+
+.downloadcv a{
+    color: #F1F1F1;  
+}
+
+.curriculo a:hover{
+    color: #f0da17;
+    transition: color 0.3s ease;
+}
 
 
 
