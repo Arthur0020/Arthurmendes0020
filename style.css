@@ -185,7 +185,7 @@ nav{
     border: none;
     cursor: pointer;
     box-shadow:6px 0px 20px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    transition: 0.3s ease, background-color 0.3s ease;
 
 }
 
@@ -205,6 +205,85 @@ nav{
 }
 
 
+.mainlinhadotempo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.linhaforma{
+    background-color: #276DC4;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.linhatitulo{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.tracolinha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #276DC4;
+    width: 800px;
+    height: 7px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 200px;
+}
+
+.ponto1{
+    background-color: #276DC4;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.ponto2{
+    background-color: #276DC4;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 350px;
+    margin: 356px;
+}
+
+.ponto3{
+    background-color: #276DC4;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.linhatexto{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt1,
+.txt2,
+.txt3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.txt2{
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.txt1{
+    padding-right: 80px;
+}
 
 
 
